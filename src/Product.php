@@ -1,6 +1,7 @@
 <?php
+namespace Oop;
 
-require_once("AbstractProduct.php");
+// require_once("AbstractProduct.php");
 
 class Product extends AbstractProduct{
 

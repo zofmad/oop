@@ -2,12 +2,24 @@
 
 
 
+require 'vendor/autoload.php';
+
+use Oop\Vehicle;
+use Oop\Collection;
+use Oop\Product;
+use Oop\ProductAttributes;
+use Oop\ProductAttribute;
+
+use Oop\AbstractProduct;
+use Oop\AttributesInterface;
+use Oop\Collection\Iterator;
 //autoloader
-spl_autoload_register(function ($class) {
-    include './src/' . $class . '.php';
-});
+// spl_autoload_register(function ($class) {
+//     include './src/' . $class . '.php';
+// });
 
-
+// phpinfo();
+// die();
 $objVeh = new Vehicle();
 $objVeh->setAttribute(new ProductAttribute("a", "c"));
 // var_dump($obj);
@@ -48,6 +60,8 @@ $collection->sort(function($a, $b){
 echo $collection;
 
 echo "Collection:<br>";
+var_dump($collection);
+
 
 foreach($collection as $key => $value) {
      var_dump($key);

@@ -1,5 +1,5 @@
 <?php
-
+namespace Oop;
 
 interface AttributesInterface{
 

@@ -1,6 +1,6 @@
 <?php
 
-
+namespace Oop;
 
 require_once("AttributesInterface.php");
 

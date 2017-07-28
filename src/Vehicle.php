@@ -1,5 +1,7 @@
 <?php
-require_once("AbstractProduct.php");
+
+namespace Oop;
+// require_once("AbstractProduct.php");
 
 class Vehicle extends AbstractProduct{
   // public function setAttribute($attribute){

@@ -1,9 +1,12 @@
 <?php
- require_once("Product.php");
-  require_once("Vehicle.php");
+
+namespace Oop;
+
+ // require_once("Product.php");
+ //  require_once("Vehicle.php");
 
 
-class Collection implements Iterator{
+class Collection implements \Iterator {
   private $collection = [];
   private $position = 0;
   private $sort = false;

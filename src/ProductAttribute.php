@@ -1,6 +1,5 @@
 <?php
-
-
+namespace Oop;
 class ProductAttribute{
 
   private $name;

@@ -1,5 +1,10 @@
 <?php
- require_once("ProductAttributes.php");
+
+namespace Oop;
+
+ // require_once("ProductAttributes.php");
+
+
 
 abstract class AbstractProduct{
   protected $attributes;
